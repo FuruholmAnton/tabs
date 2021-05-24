@@ -5,15 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabs</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="tabs">
-        <header class="">
-            <a href="">Program</a>
+        <header class="nav">
+            <a href="#" class="navItem" data-tab="1">Program</a>
+            <a href="#" class="navItem" data-tab="2">Food</a>
+            <a href="#" class="navItem" data-tab="3">Accommodation</a>
         </header>
-        <main class=""> 
-            content
+        <main class="main"> 
+            <div class="tab tab1 active">
+                <div class="part part-left">
+                    <img src="image.jpg" alt="tree branches" class="image">
+                </div>
+                <div class="part part-right">
+                    Content
+                </div>
+            </div>
+            <div class="tab tab1">
+                <div class="part part-left">
+                    <img src="image.jpg" alt="tree branches" class="image">
+                </div>
+                <div class="part part-right">
+                    Content 2
+                </div>
+            </div>
         </main>
     </div>
+    <script src="main.js"></script>
+    
 </body>
 </html>
